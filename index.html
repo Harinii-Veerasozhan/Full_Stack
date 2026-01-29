@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My E-Commerce Store</title>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  header {
+    background-color: #921b56;
+    text-align: center;
+    padding: 15px;
+  }
+  h1 {
+    color: hsl(0, 0%, 98%);
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+  }
+
+  nav ul li {
+    float: left;
+  }
+
+  nav ul li a {
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+  }
+
+  nav ul li a:hover {
+    background-color: #555;
+  }
+
+  section {
+    width: 70%;
+    float: left;
+    padding: 15px;
+  }
+
+  aside {
+    width: 25%;
+    float: right;
+    background-color: #ffe6f2;
+    padding: 15px;
+    border: 2px solid #a32c2c;
+    margin-top: 20px;
+  }
+
+  table {
+    width: 50%;
+    border-collapse: collapse;
+  }
+
+  table th, table td {
+    padding: 8px;
+    text-align: center;
+  }
+
+  footer {
+    clear: both;
+    background-color: #921b56;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    p{
+        color: white;
+    }
+  }
+</style>
+
+</head>
+<center>
+<body bgcolor="pink">
+
+<!-- Header Section -->
+<header id="home">
+  <h1>ONLINE SHOPPING STORE</h1>
+</header>
+
+<!-- Navigation with Internal Links -->
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#offers">Offers</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Main Content Section -->
+<section id="products">
+  <h2>Available Products</h2>
+
+  <article>
+    <h3>Wireless Headphones</h3>
+    <figure>
+      <img src="headphones.jpg" alt="Wireless Headphones" width="200">
+      <figcaption>Wireless Headphones with Noise Cancellation</figcaption>
+    </figure>
+    <p>Price: ₹2,499</p>
+    <p>High quality sound with noise cancellation.</p>
+  </article>
+
+  <article>
+    <h3>Smart Watch</h3>
+    <figure>
+      <img src="smartwatch.jpg" alt="Smart Watch" width="200">
+      <figcaption>Smart Watch with Fitness Tracking</figcaption>
+    </figure>
+    <p>Price: ₹3,999</p>
+    <p>Fitness tracking with heart rate monitor.</p>
+  </article>
+</section>
+
+<!-- Aside Section for Offers -->
+<aside id="offers">
+  <h2>Special Offers</h2>
+  <p>🎉 Flat 20% off on all electronics!</p>
+  <p>🚚 Free delivery on orders above ₹5,000</p>
+</aside>
+
+<!-- Product Table -->
+<section>
+  <h2>Product Price List</h2>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Product Name</th>
+        <th>Price</th>
+        <th>Category</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Wireless Headphones</td>
+        <td>₹2,499</td>
+        <td>Audio</td>
+      </tr>
+      <tr>
+        <td>Smart Watch</td>
+        <td>₹3,999</td>
+        <td>Wearable</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="3">Prices are inclusive of taxes</td>
+      </tr>
+    </tfoot>
+  </table>
+</section>
+
+<!-- Footer Section -->
+<footer id="contact">
+  <p>© 2025 Online Shopping Store</p>
+</footer>
+
+</body>
+</center>
+</html>
